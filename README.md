@@ -10,7 +10,7 @@ Fully connected layer consists of  consist of
 2. Decoder 
 
 For Encoder Is similar to convolution Neural network , In the Current project I used VGG-16 .
-Decoder is used to upsampled the Ecoder and Perform sementic segmaentation of road  , 
+Decoder is used to upsampled the Ecoder and Perform sementic segmaentation of road  ,
 
 
 ## Approach
@@ -40,14 +40,14 @@ Loss per batch tends to average below 0.200 after two epochs and below 0.100 aft
 
 Below are a few sample images from the output of the fully convolutional network, with the segmentation class overlaid upon the original image in green.
 
-![sample1](./sample1.png)
-![sample2](./sample2.png)
-![sample3](./sample3.png)
-![sample4](./sample4.png)
-![sample5](./sample5.png)
-![sample6](./sample6.png)
-![sample7](./sample7.png)
-![sample8](./sample8.png)
+![sample1](./SAMPLE1.png)
+![sample2](./SAMPLE2.png)
+![sample3](./SAMPLE3.png)
+![sample4](./SAMPLE4.png)
+![sample5](./SAMPLE5.png)
+![sample6](./SAMPLE6.png)
+![sample7](./SAMPLE7.png)
+![sample8](./SAMPLE8.png)
 
 Performance is very good, but not perfect with only spots of road identified in a handful of images.
 
