@@ -3,7 +3,15 @@
 
 ## Introduction
 
-The goal of this project is to construct a fully convolutional neural network based on the VGG-16 image classifier architecture for performing semantic segmentation to identify drivable road area from an car dashcam image (trained and tested on the KITTI data set).
+The goal of the project is to apply `FULLY CONCVOLUTION NEURAL NETWORK` for perfoming sematic segmentation.
+Fully connected layer consists of  consist of 
+
+1. Encoder
+2. Decoder 
+
+For Encoder Is similar to convolution Neural network , In the Current project I used VGG-16 .
+Decoder is used to upsampled the Ecoder and Perform sementic segmaentation of road  , 
+
 
 ## Approach
 
